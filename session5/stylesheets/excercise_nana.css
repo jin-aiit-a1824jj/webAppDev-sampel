@@ -1,0 +1,25 @@
+body {
+  background-color: #f7fbff;
+}
+
+h1 {
+  color: #fff;
+  background-color: #73badc;
+}
+
+#favorite {
+  color: #1b942f;
+}
+
+.special {
+  color: #c72626;
+}
+
+#sns {
+
+  /* border-color: #73badc;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: #73badc 5px solid;
+}

@@ -1,0 +1,17 @@
+body {
+  /* background-color: #cccccc; */
+  background-image: url(https://4.bp.blogspot.com/-PqVeVP2sFKw/UNbZ6e1cpNI/AAAAAAAAJNw/SlLrbCZbdTw/s1600/13_16bu_onpu.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h2 {
+  background-color: #4587bd;
+
+  /* border-style: solid;
+  border-color: #e2b483;
+  border-width: 10px; */
+  border: solid #e2b483 10px;
+
+  color: #fff;
+}
