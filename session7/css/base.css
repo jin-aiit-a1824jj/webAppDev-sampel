@@ -108,3 +108,41 @@ main h2 {
   margin-left: 20px;
   list-style-type: none;
 }
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #614226;
+}
+
+footer ul {
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:link {
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  text-decoration: underline;
+}
