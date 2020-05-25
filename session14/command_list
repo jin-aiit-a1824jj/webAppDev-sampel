@@ -44,3 +44,10 @@ drop database db01;
 drop database db02;
 drop user dbuser01@localhost;
 drop user dbuser02@localhost;
+
+
+https://www7390uo.sakura.ne.jp/wordpress/archives/456
+sudo mysql -u root < initialize.sql
+mysql -u mydbuser -p
+show databases;
+exit
