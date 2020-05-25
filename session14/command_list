@@ -96,3 +96,11 @@ insert into users (name) values ('sato');
 select * from users;
 insert into users (name, age) values ('suzuki', 21);
 select * from users;
+
+
+sudo mysql -u root < initialize.sqlsudo mysql -u root < initialize_select.sql 
+mysql -u mydbuser -p
+use mydb;
+select * from users;
+select name from users;
+select name, age from users;
