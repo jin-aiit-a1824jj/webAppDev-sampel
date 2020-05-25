@@ -130,3 +130,9 @@ select * from users where name like '%a';
 select * from users where name like '%a%k%';
 select * from users where name like '______';
 select * from users where name like '_a%';
+
+
+select * from users;
+select * from users order by age asc;
+select * from users order by age;
+select * from users order by age desc;
