@@ -98,7 +98,7 @@ insert into users (name, age) values ('suzuki', 21);
 select * from users;
 
 
-sudo mysql -u root < initialize.sqlsudo mysql -u root < initialize_select.sql 
+sudo mysql -u root < initialize_select.sql 
 mysql -u mydbuser -p
 use mydb;
 select * from users;
@@ -154,3 +154,8 @@ select * from users;
 update users set name = 'hoge';
 select * from users;
 exit
+
+
+sudo mysql -u root < initialize_select.sql 
+mysql -u mydbuser -p
+use mydb;
