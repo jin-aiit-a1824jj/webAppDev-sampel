@@ -54,7 +54,7 @@ exit
 
 
 sudo mysql -u root < initialize.sql
-mysql -u mydbuser -p PassW0rd
+mysql -u mydbuser -p
 use mydb;
 create table users(id int unsigned, name varchar(32), age int);
 show tables;
@@ -62,3 +62,18 @@ desc users;
 drop table users;
 show tables;
 exit
+
+
+sudo mysql -u root < initialize.sql
+mysql -u mydbuser -p
+use mydb;
+create table users(id int unsigned, name varchar(32), age int);
+show tables;
+insert into users (id, name, age) values (1, 'sato', 20);
+insert into users (id, name, age) values (2, 'suzuki', 21);
+insert into users (id, name, age) values (3, 'takahashi', null);
+select * from users;
+insert into users (id, name, age) values (4, 'tanaka', 23), (5, 'ito', 24), (6, 'watanabe', 25);
+select * from users;
+exit
+
