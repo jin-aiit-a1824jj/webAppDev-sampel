@@ -1,0 +1,6 @@
+ruby -v
+
+irb
+
+ruby hello.rb
+
