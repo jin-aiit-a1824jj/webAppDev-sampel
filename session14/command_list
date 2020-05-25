@@ -1,0 +1,12 @@
+https://qiita.com/houtarou/items/a44ce783d09201fc28f5
+
+sudo apt install mysql-server mysql-client
+mysql --version
+sudo service mysql status
+sudo service mysql start
+sudo service mysql stop
+
+sudo mysql -u root
+
+show variables like '%char%';
+
