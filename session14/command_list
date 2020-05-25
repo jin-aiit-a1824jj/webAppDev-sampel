@@ -10,3 +10,15 @@ sudo mysql -u root
 
 show variables like '%char%';
 
+
+show databases;
+create database db01;
+create database db02;
+create database db03;
+drop database db03;
+show databases;
+select database();
+use db01;
+select database();
+sudo mysql -u root db01;
+select database();
