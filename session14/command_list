@@ -51,3 +51,14 @@ sudo mysql -u root < initialize.sql
 mysql -u mydbuser -p
 show databases;
 exit
+
+
+sudo mysql -u root < initialize.sql
+mysql -u mydbuser -p PassW0rd
+use mydb;
+create table users(id int unsigned, name varchar(32), age int);
+show tables;
+desc users;
+drop table users;
+show tables;
+exit
