@@ -159,3 +159,9 @@ exit
 sudo mysql -u root < initialize_select.sql 
 mysql -u mydbuser -p
 use mydb;
+select * from users;
+delete from users where age >= 20;
+select * from users;
+delete from users;
+select * from users;
+exit;
