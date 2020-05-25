@@ -142,3 +142,15 @@ select * from users limit 3;
 select * from users order by age asc limit 3;
 select * from users where age is not null order by age asc limit 3;
 select * from users where age is not null order by age asc limit 3 offset 3;
+
+
+select * from users;
+update users set age = 40 where id = 1;
+select * from users;
+update users set name = 'aaaaa', age = 41 where id = 1;
+select * from users;
+update users set age = 99 where age >= 30;
+select * from users;
+update users set name = 'hoge';
+select * from users;
+exit
