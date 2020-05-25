@@ -119,3 +119,4 @@ select * from users where age is not null;
 select * from users where age is null;
 select * from users where age between 20 and 29;
 select * from users where age >= 20 and age <= 29;
+select * from users where age = 20 or age = 29;
