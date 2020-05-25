@@ -104,3 +104,18 @@ use mydb;
 select * from users;
 select name from users;
 select name, age from users;
+
+select * from users;
+select * from users where age >= 20;
+select * from users where id = 1;
+select * from users where name = 'sato';
+select * from users where age > 20;
+select * from users where age > 20;
+select * from users where age <> 20;
+select * from users where age != 20;
+select * from users where id in (1, 2, 3);
+select * from users where id not in (1, 2, 3);
+select * from users where age is not null;
+select * from users where age is null;
+select * from users where age between 20 and 29;
+select * from users where age >= 20 and age <= 29;
