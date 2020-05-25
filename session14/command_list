@@ -22,3 +22,25 @@ use db01;
 select database();
 sudo mysql -u root db01;
 select database();
+
+
+create user dbuser01@localhost identified by 'PassW0rd';
+grant all on db01.* to dbuser01@localhost;
+exit
+mysql -u dbuser01 -p
+select user();
+show databases;
+exit
+sudo mysql -u root;
+create user dbuser02@localhost identified by 'PassW0rd';
+grant all on db02.* to dbuser02@localhost;
+exit
+mysql -u dbuser01 -p
+show databases;
+system clear;
+exit
+sudo mysql -u root;
+drop database db01;
+drop database db02;
+drop user dbuser01@localhost;
+drop user dbuser02@localhost;
