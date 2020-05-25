@@ -77,3 +77,22 @@ insert into users (id, name, age) values (4, 'tanaka', 23), (5, 'ito', 24), (6, 
 select * from users;
 exit
 
+
+sudo mysql -u root < initialize.sql
+mysql -u mydbuser -p
+use mydb;
+create table users(id int unsigned auto_increment not null primary key, name varchar(32), age int not null);
+desc users;
+insert into users (name, age) values ('sato', 20);
+insert into users (name, age) values ('suzuki', 21);
+select * from users;
+insert into users (name, age) values ('takahashi', null);
+desc users;
+insert into users (name) values ('takahashi');
+drop table users;
+create table users(id int unsigned auto_increment not null primary key, name varchar(32), age int not null default 1);
+desc users;
+insert into users (name) values ('sato');
+select * from users;
+insert into users (name, age) values ('suzuki', 21);
+select * from users;
