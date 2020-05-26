@@ -31,3 +31,5 @@ Task.create(title: "test2")
 rake routes
 
 rails routes
+
+rails routes
