@@ -16,3 +16,5 @@ rails s -b 0.0.0.0
 rails g controller Tasks
 
 rails g model Task title:string done:boolean
+
+rake db:migrate
