@@ -37,3 +37,6 @@ rails routes
 
 https://github.com/rails/jquery-rails
 bundle install
+
+
+rails routes
