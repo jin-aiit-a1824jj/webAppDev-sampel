@@ -7,3 +7,8 @@ http://127.0.0.1:3000
 
 rails generate controller hello index
 rails routes
+
+
+rails new todo
+cd todo
+rails s -b 0.0.0.0
