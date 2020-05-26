@@ -21,3 +21,8 @@ rake db:migrate
 rails db
 .schema
 .exit
+
+
+rails console
+Task.create(title: "test1")
+Task.create(title: "test2")
