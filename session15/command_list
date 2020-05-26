@@ -26,3 +26,6 @@ rails db
 rails console
 Task.create(title: "test1")
 Task.create(title: "test2")
+
+
+rake routes
